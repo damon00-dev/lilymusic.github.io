@@ -1,0 +1,104 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+    position: relative;
+    background: rgb(2,0,36);
+    scroll-behavior: smooth;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(8,37,140,1) 44%, rgba(8,46,146,1) 47%, rgba(7,56,152,1) 50%, rgba(7,62,156,1) 52%, rgba(7,71,162,1) 55%, rgba(6,84,170,1) 59%, rgba(5,100,180,1) 64%, rgba(0,212,255,1) 100%);
+}
+.navbar{
+    padding: 25px 20px;
+    width: 100%;
+    height: 30px;
+    background: #000 ;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    display: inline;
+}
+li{
+    font-size: 24px; 
+    font-weight: 500;
+    float: left;
+    color: white;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.brand{
+    margin-right: 680px;
+    margin-left: 20px;
+    font-size: 25px;
+    color: #00d4ff;
+}
+li:hover{
+    color: #00d4ff;
+}
+.fab fa spotify{
+    font-family: monospace;
+    color: #ffffff;
+}
+span{
+    color: cyan;
+}
+.lily{
+    position: absolute;
+    top: 110px;
+    left: 60%;
+    right: 82%;
+
+}
+img{
+    height: 210%;
+}
+.heading{
+    position: absolute;
+    color: #00d4ff;
+    font-size: 25px;
+    font-family: cursive;
+    top: 240px;
+    left: 40px;
+    letter-spacing: 0.06em;
+}
+.content{
+    color: #00d4ff;
+    position: absolute;
+    left: 55px;
+    top: 440px;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+}
+.a{
+    position: absolute;
+    top: 540px;
+    left: 130px;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    border: 2px solid #00d4ff;
+    border-radius: 35px;
+    transition: 0.5s;
+    transition-property: background;
+}
+#foot{
+    color: #00d4ff;
+    top: 760px;
+    left: 230px;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+}
+.foot{
+    color: #00d4ff;
+    top: 760px;
+    left: 730px;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
